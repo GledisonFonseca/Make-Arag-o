@@ -1,0 +1,476 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+   max-width: 1280px; 
+   margin: 0 auto;
+   padding: 0 auto;
+}
+
+.clear{
+clear:both:
+}
+
+/* Menu */
+header{
+   height: 55px;
+   padding: 10px 7;
+}
+
+.logo img{
+   height: 100px;
+
+}
+.logo{
+   float: left;
+}
+
+.menu-desk {
+   float: right;
+ }
+ 
+
+.menu-desk ul{
+  position: relative;
+  margin-top: 60px;
+}
+
+.menu-desk li{
+display: inline-block;
+padding:0 10px;
+font-weight: lighter;
+}
+
+.menu-desk a{
+  color:#556B2F; 
+ text-decoration: overline;
+ 
+}
+
+.menu-desk li.selected{
+   font-weight: bold;
+}
+
+/*menu mobile*/
+.menu-mobile{
+  display: none;
+  float: right;
+}
+
+.menu-mobile ul{
+  display: none;
+  width: 100%;
+  background: #00FF7F;
+  position: absolute;
+  left: 0;
+  top: 95px;
+  z-index: 100;
+  text-align: center;
+}
+
+.menu-mobile h2{
+  cursor: pointer;
+}
+
+.menu-mobile li{
+  padding: 8px 0;
+  border-bottom:1px solid white ;
+}
+
+.menu-mobile li.selected{
+  background: #98FB98;
+}
+
+.menu-mobile a{
+  display: block;
+  color: #000000;
+  text-decoration: none;
+}
+
+/* Banner */
+
+.Banner{
+   background: url("../img/capa2.webp");
+   width: 100%;
+   height: 700px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   text-align: center;
+   margin-top: 50px;
+}
+
+.botao {
+  width: 160px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  display: inline-block;
+  margin-top: 520px;
+  background-color: #556B2F;
+  color: white;
+  font-weight: bold;
+  padding: 16px 32px;
+  border: 2px solid white;
+  transition-duration: 0.5s;
+}
+
+
+.btn:hover{
+  background-color: #00FF7F;
+
+}
+
+.line-text h2 {
+   color: #BDB76B;
+   font-weight: 500;
+   font-size: 27px;
+   text-align: center;
+   margin-top: 20px;
+ }
+ 
+
+ .icones-diferenciais {
+   margin-top: 40px;
+ }
+ 
+
+ .box-icone-single {
+   float: left;
+   width: 33.3%;
+   margin-bottom: 20px;
+   padding: 0 10px;
+ }
+ 
+
+.box-icone-single h2{
+   color: #BDB76B;
+   text-align: center;
+}
+
+.box-icone-single p{
+   color: black;
+   font-weight: lighter;
+   font-size:17px;
+}
+
+/* equipe */
+.equipe {
+   padding: 40px 0;
+   text-align: center;
+ }
+ 
+
+ .equipe-circles {
+   margin-top: 50px;
+   display: flex;
+   flex-wrap: wrap;
+ }
+ 
+ .equipe-circle-single {
+   width: 33.3%;
+   text-align: center;
+   padding: 0 20px;
+ }
+ 
+
+..equipe-circle-single h3 {
+   margin-top: 8px;
+   font-size: 20px;
+   font-weight: normal;
+ }
+ 
+ .avatar {
+   position: relative;
+   width: 60%;
+   padding-top: 60%;
+   margin: 0 auto;
+ }
+ 
+
+ .avatar-container {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   border-radius: 50%;
+   background-size: 100% 100%;
+ }
+ 
+
+/*inscrição*/
+.inscrição{
+   background-color: #20B2AA;
+   padding:70px 0;
+   margin-top: 20px;
+}
+
+.center{
+   width: 50%;
+   text-align: center;
+   float: left;
+}
+
+.inscrição-texto{
+   font-weight: normal;
+  color: rgb(255, 255, 255);
+}
+
+.inscrição-form input[type="email"]{
+   width: 350px;
+  height: 30px;
+  background: white;
+  border: 2px solid #556B2F;
+  font-size: 17px;
+  display: inline-block;
+
+}
+
+.inscrição-form input[type="submit"]{
+   width: 120px;
+   height: 30px;
+   background: rgb(230, 228, 228);
+   cursor: pointer;
+ display: inline-block;
+ border: 0;
+ color: #556B2F;
+ font-weight: bold;
+ font-size: 18px;
+}
+
+.parallax{
+   background-image: url(../img/capa3.jpg);
+   min-height:350px;
+   background-size: contain;
+  width: 100%;
+  background-position: left;
+  text-align: center;
+  background-attachment: fixed;
+}
+
+.botao2{
+   width: 200px;
+   text-align: center;
+   background-color: #556B2F;
+   padding: 16px 32px;
+   text-decoration: none;
+   font-size: 16px;
+   cursor: pointer;
+ display: inline-block;
+ margin-top: 250px;
+ color: white;
+ font-weight: bold;
+ border: 4px solid white;
+}
+
+/* Cards*/
+.cards {
+  padding: 30px 0;
+}
+
+
+.card-single {
+  width: 33.3%;
+  float: left;
+  padding: 30px;
+}
+
+ 
+.card-single img {
+  width: 100%;
+ 
+}
+
+ 
+
+ .card-single h3 {
+   margin-top:30px;
+   font-weight: bold;
+   font-size: 20px;
+   text-align: center;
+ }
+
+ .card-single p {
+  text-align: center;
+ }
+ 
+
+/* Contato*/
+.contato {
+   min-height: 400px;
+   padding: 30px 0;
+ }
+ 
+ .formulario form {
+   margin-top:10px;
+ }
+ 
+ .formulario h2 {
+   background: #98FB98;
+   text-align: center;
+   color: #006400;
+   padding: 5px 0;
+   font-size: 18px;
+   border-left:0px solid hotpink;
+   margin-top: 25px;
+ }
+ 
+ .w60 {
+  width: 60%;
+  float: left;
+}
+
+ .input {
+   margin-top:10px;
+ }
+ 
+ .formulario input[type="text"],
+ .formulario input[type="email"] {
+   width: 100%;
+   height: 40px;
+   padding-left: 10px;
+ }
+ 
+ .formulario textarea {
+   width: 100%;
+   height: 150px;
+   padding-left: 10px;
+ }
+ 
+ .w40 {
+  width: 40%;
+  float: left;
+}
+
+ 
+.tags-form {
+  text-align: center;
+  padding-left: 50px;
+  margin-top: 40px;
+  
+}
+
+ .tags-form h2 {
+   font-weight: normal;
+   margin-bottom:35px;
+   
+ }
+ 
+ .tags-form p {
+   text-align: justify;
+  
+ }
+ 
+ .tags-form .tags-contato {
+  color: #006400;
+  background: #98FB98;
+  text-align: center;
+  margin-top: 10px;
+  padding: 0px 10px;
+}
+
+ 
+ /*RodapÃ©*/
+ .w33 {
+  width: 33.3%;
+  float: left;
+  
+}
+
+.footer1 {
+  background: #20B2AA;
+  padding:150px 0;
+  color: #ffffff;
+  margin-top: 500px;
+}
+
+.footer1 h2 {
+  font-weight: normal;
+  font-size: 24px;
+}
+
+
+.footer1 p {
+  color: black;
+  margin-top: 8px;
+  font-size:22px;
+}
+
+
+.footer1 img {
+  width:47px;
+  height:47px;
+  margin-top: 10px;
+}
+
+.footer2 {
+  padding: 15px 0;
+  background: #98FB98;
+  text-align: center;
+  color: rgb(0, 0, 0);
+
+}
+
+.footer2 a {
+  color: rgb(0, 0, 0);
+}
+
+/*MIDIA QUERY*/
+
+@media screen and (max-width:768px) {
+  .box-icone-single{
+  width: 100%;
+  }
+  
+  .w33,
+  .w40,
+  .w60{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  .tags-form{
+    padding: 0 10px;
+  }
+
+  .footer1{
+    width: 100%;
+    padding: 50px;
+    
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .equipe-circle-single{
+    width: 100%;
+    padding: 0 15px;
+    margin-bottom: 35px;
+    
+  }
+  .card-single{
+    width: 100%;
+  }
+  
+}
+
+@media  screen and (max-width:950px) {
+  .center{
+  width: 100%;
+  
+  }
+}
+
+@media screen and (max-width: 500px){
+  .menu-mobile{
+    display: block;
+  }
+  .menu-desk{
+    display: none;
+  }
+}
